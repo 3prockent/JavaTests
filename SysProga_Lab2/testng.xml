@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test parallel="methods" thread-count="2" verbose="2" preserve-order="true" name="C:/Users/Vlad/Desktop/Tests/SysProga_Lab2/src/test/java/com/company/ComparerTest.java">
+        <classes>
+            <class name="com.company.ComparerTest">
+                <methods>
+                    <include name="testNotFoundFileException"/>
+                    <include name="successFinish"/>
+                    <include name="read"/>
+                    <include name="readFromFile"/>
+                    <include name="notNullWords"/>
+                    <include name="firstWordEqual"/>
+                    <include name="createMaxPairsResult"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
